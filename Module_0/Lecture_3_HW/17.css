@@ -1,0 +1,25 @@
+/* 16 Advanced */
+
+div p:first-child{
+    color:blue;
+}
+/* div p:first-child will select all the 'p' tags whose ancestor is a 'div' tag and which is the first child of its parent. */
+
+
+/* div>p:first-child will select all the 'p' tags who are first child of a 'div' tag. */
+
+
+
+/* Refer below */
+
+/* 
+    <div>
+        <p>Effect</p> <!--Since this is first child of div and a p tag-->
+        <p>No Effect</p>
+    </div>
+    <div>
+        <a>Google</a>
+        <p>No Effect</p> <!--This is a p tag inside a div tag but it is 2nd child.-->
+    </div>
+
+*/

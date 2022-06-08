@@ -1,0 +1,40 @@
+/* Nth last child */
+
+p:nth-last-child(2){
+    color:green;
+}
+
+
+
+/* p:nth-last-child(2) will select all the 'p' tags which are 2nd last child of some other tag */
+
+
+/* div>p:nth-last-child(2) will select all the 'p' tags which are 2nd last child of a 'div' tag. */
+
+
+/* div p:nth last-child(2) will select all the 'p' tags which are 2nd last child of their parent and whose ancestor is a 'div' tag. */
+
+
+
+
+
+/* Refer below */
+
+/* 
+    <div> 
+        <p>Effect</p>
+        <p>No Effect</p>
+    </div>
+    <div>
+        <p>No Effect</p>
+        <p>No Effect</p>
+        <p>Effect</p>
+        <p>No Effect</p>
+    </div>
+    <div>
+        <a>Google</a>
+        <p>No Effect</p>
+        <p>Effect</p>
+        <a>Google</a>
+    </div>
+*/

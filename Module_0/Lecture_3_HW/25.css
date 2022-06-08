@@ -1,0 +1,32 @@
+/* first-of-type selector*/
+p:first-of-type{
+    color:green;
+}
+
+
+/* p:first-of-type will select all the 'p' tags which are first 'p' tag inside their block. */
+
+/* div>p:first-of-type will select all the 'p' tags which are first 'p' tag inside a 'div' block.*/
+
+/* div p:first-of-type will select all the 'p' tags which are first 'p' tag inside their parent and whose ancestor is a 'div' tag. */
+
+
+/* Refer below */
+/* 
+    <div>
+        <a>Google</a>
+        <div>
+           <a>Google</a>
+           <h3>No Effect</h3>
+           <p>Effect</p>
+           <a>Google</a>
+           <p>No Effect</p>
+        </div>
+        <h3>No Effect</h3>
+        <p>Effect</p>
+        <p>No Effect</p>
+    </div>
+    <p>Effect</p>
+    <p>No Effect</p>
+
+*/

@@ -1,0 +1,33 @@
+/* 10 advanced */
+div.fancy *{
+    color:blue;
+}
+/* Refer below */
+
+/* div.fancy * will select everything inside every 'div' tag whose className is 'fancy'. */
+
+/*  
+    <div>
+        <p>No Effect</p>
+    </div>
+    <div class="one">
+        <p>No Effect</p>
+    </div>
+    <div id="unique">
+        <p>
+            No Effect
+        </p>
+    </div>
+    <div class="fancy">
+        <p>
+            Effect
+        </p>
+        <h1>
+            Effect
+        </h1>
+        <span>
+            Effect
+        </span>
+    </div> 
+
+*/

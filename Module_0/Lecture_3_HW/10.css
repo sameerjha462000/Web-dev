@@ -1,0 +1,38 @@
+/* modified universal selector */
+
+/* Space is necessary */
+div *{
+    color:blue;
+}
+
+/* div * will select everything inside every 'div' tag. */
+
+/* Refer below */
+/* 
+    <div>
+        <p>Effect</p>
+        <span>Effect</span>
+        <h1>Effect</h1>
+        <div>
+            <p>
+                <span>
+                    Effect
+                </span>
+            </p>
+        </div>
+    </div>
+    <h1>No Effect</h1>
+    <p>No Effect</p>
+    <div class="one">
+        <p>Effect</p>
+    </div>
+    <div id="unique">
+        <p>
+            Effect
+        </p>
+        <span>
+            Effect
+        </span>
+    </div>
+
+*/

@@ -1,0 +1,26 @@
+/* Adjacent sibling selector */
+p + h1{
+    color:yellowgreen;
+}
+
+/* p + h1 will select every 'h1' tag which is just after a 'p' tag. */
+/* If h1 is inside p then only first h1 will be selected */
+
+/* Refer below */
+/* 
+    <div>
+        <p>
+            <a>Google</a>
+            <h1>effect</h1>
+            <h1>No effect</h1>
+        </p>
+        <h1>effect</h1>
+        <h1>No effect</h1>
+    </div>
+    <p>no effect</p>
+    <h1>effect</h1>
+    <h1> No effect</h1>
+    <p></p>
+    <div></div>
+    <h1>No effect</h1>
+*/

@@ -1,0 +1,35 @@
+/* last child */
+p:last-child{
+    color:blue;
+}
+
+
+/* p:last-child will select all those 'p' tags which are the last child of their parent. */
+
+/* div>p:last-child will select all those 'p' tags which are the last child of a 'div' tag. */
+
+/* div p:last-child will select all those 'p' tags which are last child of their parent and whose ancestor is a 'div' tag. */
+
+
+
+/* Refer below */
+
+/* 
+    
+    <div>
+       <p>No Effect</p>
+       <a>Google</a>
+       <!-- As p is not the last child of this div -->
+   </div>
+   <div>
+       <a>Google</a>
+       <p>Effect</p>
+   </div>
+   <div>
+       <p>No Effect</p>
+       <p>No Effect</p>
+       <p>Effect</p>
+   </div>
+
+*/
+

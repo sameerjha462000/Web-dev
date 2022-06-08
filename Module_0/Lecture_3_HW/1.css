@@ -1,0 +1,27 @@
+/* Normal selector */
+
+p{
+    color:blue;
+}
+div{
+    color:green;
+}
+h1{
+    color:brown;
+}
+/* Refer below */
+/* 
+    <p>I will change to blue</p>
+    <h1>I will change to brown</h1>
+    <div>I will change to green</div>
+    <div>
+        <p>
+            I will change to blue.
+        </p>
+        <div>
+            <h1>
+                I will change to brown.
+            </h1>
+        </div>
+    </div>
+*/

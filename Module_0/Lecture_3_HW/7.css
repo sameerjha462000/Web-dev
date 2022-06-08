@@ -1,0 +1,22 @@
+/* Comma combinator */
+
+h1,div{
+    color:blue;
+}
+
+/* h1,div will select all the 'h1' tags and 'div' tags. It is called the comma combinator. */
+
+/* Refer below */
+/* 
+
+    <div>
+        Effect
+    </div>
+    <div class="one">
+        Effect
+    </div>
+    <p class="one">No Effect</p>
+    <h1 class="one">Effect</h1>
+
+
+*/

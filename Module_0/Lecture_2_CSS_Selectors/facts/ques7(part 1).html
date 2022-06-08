@@ -1,0 +1,71 @@
+<!-- visit css diner -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+
+        /* 1st way */
+        /* div>div{
+            color:blue;
+        } */
+
+
+
+        /* 2nd way */
+        /* .c1>div{
+            color:blue;
+        } */
+
+
+
+        /* 3rd way */
+        /* .c1>div>div>span>div{
+             color:blue;
+        } */
+
+
+        /* descendent selector */
+        /* NOTE:: here give space after c1 */
+        /* .c1 .c2{
+            color:blue;
+        } */
+
+
+        /* children selector */
+        .c1>.c2{
+            color:blue;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Select "I'm here. find me" and make it blue  -->
+    <a href="https://flukeout.github.io/">please click on this, it will go to css diner</a>
+    <div class="c1">
+        <div>
+            <div>
+                <span>
+                    <div class="c2">I'm here. find me</div>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <span class="c1">
+            <div class="c2">Don't select me</div>
+        </span>
+    </div>
+
+</body>
+<!-- 
+    Difference between children and descendent 
+    1.Children is 1 level down whereas descendent can be any level down
+    2.children are descendent but vice versa is not true.
+-->

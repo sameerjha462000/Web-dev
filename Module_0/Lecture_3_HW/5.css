@@ -1,0 +1,33 @@
+/* descendent selector */
+div p{
+    color:green;    
+}
+
+/* div p will select all the 'p' tags whose ancestor is 'div' tag */
+
+
+/* Refer below */
+/* 
+    <div>
+        <p>Effect</p>
+        <div>
+            <p>Effect</p>
+            <div>
+                <p>
+                    Effect
+                </p>
+            </div>
+        </div>
+        <p class="one">Effect</p>
+        <p id="unique">Effect</p>
+    </div>
+    <div class="one">
+        <p>Effect</p>
+        <p class="one">Effect</p>
+        <p id="new">Effect</p>
+        <div id="unique">
+            <p id="web">Effect</p>
+        </div>
+    </div>
+
+*/

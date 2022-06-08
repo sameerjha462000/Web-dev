@@ -1,0 +1,32 @@
+/* class selector */
+.sam{
+    color:blue;
+    
+}
+/* .sam will select all the tags whose className is "sam" */
+
+
+
+
+/* Refer here */
+/* 
+    <div class="sam">
+        <p>Effectc</p>
+    
+        // Everything inside this div tag will change to blue(unless they have their own selectors).
+    </div>
+    <p>
+        <div>
+            <p>No Effect</p>
+            <span class="sam">
+                Effects
+            </span>
+        </div>
+    </p>
+
+
+
+
+
+
+*/

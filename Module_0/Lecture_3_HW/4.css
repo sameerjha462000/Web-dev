@@ -1,0 +1,40 @@
+/* 4 children selector */
+div>p{
+    color:blue;
+}
+span>p>div>p{
+    color:green;
+}
+
+/* div>p will select all the 'p' tags whose parent is a 'div' tag */
+/* span>p>div>p will select all the 'p' tags whose parent is a 'div' tag which itself is a child of a 'p' tag which would have 
+   parent a 'span' tag
+*/
+
+/* Refer below */
+/* 
+    <div>
+        <p>I will change to blue</p>
+        <div>
+            <p>
+                But i will not change to blue.
+            </p>
+        </div>
+        <p class="sam">I will change to blue</p>
+        <p id="unique">I will change to blue</p>
+    </div>
+
+    <span>
+        <p>
+            <div>
+                <p>
+                    I will change to green.
+                </p>
+            </div>
+        </p>
+    </span>
+
+
+
+
+*/

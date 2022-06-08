@@ -1,0 +1,37 @@
+/* last-of-type */
+
+p:last-of-type{
+    color:green;
+}
+
+/* p:last-of-type will select all the 'p' tags which are last 'p' tags inside a block. */
+
+/* div>p:last-of-type will select all the 'p' tags which are last 'p' tags inside a 'div' tag. */
+
+/* div p:last-of-type will select all the 'p' tags which are last 'p' tags inside another tag and whose ancestor is a 'div' tag */
+
+
+/* Refer below */
+
+
+/* 
+    <div>
+       <div>
+           <p>Effect</p>
+       </div>
+       <div>
+           <p>No Effect</p>
+           <p>No Effect</p>
+           <p>Effect</p>
+           <a>Google</a>
+       </div>
+       <div>
+           <a>Google</a>
+           <p>Effect</p>
+           <a>Google</a>
+       </div>
+       <p>No Effect</p>
+       <p>Effect</p>
+       <a>Google</a>
+    </div>
+*/

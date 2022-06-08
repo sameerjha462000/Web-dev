@@ -1,0 +1,8 @@
+/* Universal Selector */
+
+*{
+    background-color: green;
+    
+}
+
+/* * will select all the tags in the 'body' tag. */

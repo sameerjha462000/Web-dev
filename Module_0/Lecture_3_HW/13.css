@@ -1,0 +1,23 @@
+/* 12 advanced */
+
+p + .one{
+    color:green;
+}
+
+/* p + .one will select every tag whose className is 'one' and which is just after a 'p' tag. */
+
+/* Refer below */
+/* 
+
+    <p>
+        <a>Google</a>
+        <div class="one">
+            <p>Effect</p>
+        </div>
+        <h6 class="one">No Effect</h6>
+    </p>
+    <div class="one">Effect</div>
+    <div class="one">No Effect</div>
+
+
+*/

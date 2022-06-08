@@ -1,0 +1,31 @@
+/* Nth of type */
+p:nth-of-type(2n+3){
+    color:green;
+}
+
+/* p:nth-last-of-type(2n+3) will select every 'p' tag which is 2nd starting from the 3rd instance of the 'p' tag */
+
+/* div>p:nth-last-of-type(2n+3)  */
+
+/* div p:nth-of-type(2n+3) */
+
+/* Refer below */
+
+/* 
+    <div>
+       <span></span>
+       <span></span>
+       <p>No Effect</p>
+       <a>Google</a>
+       <span>No Effect</span>
+       <p>No Effect</p>
+       <p>Effect</p>
+       <a>Google</a>
+       <p>No Effect</p>
+       <a>Google</a>
+       <p>Effect</p>
+       <a>Google</a>
+       <p>No Effect</p>
+       <p>Effect</p>
+    </div>
+*/

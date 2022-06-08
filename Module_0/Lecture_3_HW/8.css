@@ -1,0 +1,21 @@
+/* 7 advanced */
+h1,div.one{
+    color:yellowgreen;
+}
+
+/* h1,div.one will select all the 'h1' tags and all those 'div' tags whose className is 'one'. */
+
+/* Refer below */
+/* 
+
+    <div>
+        No Effect
+    </div>
+    <div class="one">
+        Effect
+    </div>
+    <p class="one">No Effect</p>
+    <h1 class="one">Effect</h1>
+
+
+*/

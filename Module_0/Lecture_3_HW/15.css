@@ -1,0 +1,21 @@
+/* 14 advanced */
+div ~ .one{
+    color:blue;
+}
+
+
+/* div ~ .one will select all the tag with className 'one' and which are siblings of a 'div' tag */
+
+/* Refer below */
+/* 
+    <p class="one">No effect</p>
+    <div></div>
+    <p>No effect</p>
+    <p class="one">Effect</p>
+    <h1>No effect</h1>
+    <h1 class="one">Effect</h1>
+    <a>No effect</a>
+    <br>
+    <a class="one">Effect</a>   
+
+*/

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        /* .m1{
+            color:blue;
+        }
+        .m2{
+            background-color: lightblue;
+        } */
+
+        /* for specifically applying to "select me" */
+        /* multiple classes selector */
+        .m1 .m2{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- Select the element with multiple classes(m1 & m2) and make them blue -->
+    
+    <!-- Anything which you apply to m1 will also be on "select me" -->
+    <!-- Anything which you apply to m2 will also be on "select me" -->
+    <div class="m1 m2"><!--this is the way you apply multiple classes on a tag-->
+        Select me
+    </div>
+
+    <div class="m1">Not me</div>
+    <div class="m2">Not me either</div>
+</body>
+
+</html>

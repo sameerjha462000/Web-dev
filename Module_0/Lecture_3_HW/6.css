@@ -1,0 +1,28 @@
+/* class selector level 2 */
+div.one{
+    color:blue;
+}
+
+/* div.one will select all the 'div' tags whose className is 'one'. */
+
+
+/* 
+    .one{
+        // This will change all the tag with class="one" thus we cannot use this here.
+    }
+
+
+*/
+
+/* Refer below */
+
+/* 
+    <div>
+        No Effect
+    </div>
+    <div class="one">
+        Effect
+    </div>
+    <p class="one">No Effect</p>
+    <h1 class="one">No Effect</h1>
+*/

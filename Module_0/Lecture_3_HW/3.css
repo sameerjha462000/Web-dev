@@ -1,0 +1,14 @@
+/* id selector */
+#one{
+    color:yellowgreen;
+}
+
+
+/* #one will change the tag which has id="one" */
+/* Note that multiple tags cannot have same ID. */
+
+/* 
+    <div id="one">
+        Effect
+    </div>
+*/

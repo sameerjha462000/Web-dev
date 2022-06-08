@@ -1,0 +1,27 @@
+/* only-of-type */
+
+p:only-of-type{
+    color:green;
+}
+
+/* p:only-of-type will select all the 'p' tags which are the only 'p' tags inside another tag. */
+
+/* div>p:only-of-type will select all the 'p' tags which are the only 'p' tags inside a 'div' tag. */
+
+/* div p:only-of-type will select all the 'p' tags which are the only 'p' tags of their parent and whose ancestor is a 'div' tag. */
+
+/* Refer below */
+
+/* 
+    <div>
+       <p>No Effect</p> 
+       <p>No Effect</p>
+    </div>
+    <div>
+       <p>Effect</p>
+       <a>Google</a>
+    </div>
+    <p>Effect</p>
+    <a>Google</a>
+
+*/

@@ -1,0 +1,16 @@
+/* 22 advanced */
+div>p:nth-child(2){
+    color:blue;
+}
+
+
+/* div>p:nth-child(2) will select all the 'p' tag that are 2nd child of a 'div' tag */
+
+/* Refer below */
+/* 
+
+
+
+
+
+*/

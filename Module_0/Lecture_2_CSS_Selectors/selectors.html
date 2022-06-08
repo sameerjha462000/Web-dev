@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        /*css selectors*/
+        
+        /* 1.element selectors-- This is for all the tags of that type */
+    
+            h1{
+                /* rules */
+                background-color: lightcoral;
+                color:darkcyan;
+            }
+            p{
+                /* rules */
+                background-color:indianred;
+                color:red;
+            }
+            
+    
+        /* 2.class selectors */
+            .thirdh1{
+                /* p tag== 1 rem and h1 Tag == 2 rem and 1 rem==16 px*/
+                font-size:32px;
+                background-color: blueviolet;
+                color:brown;
+            }
+        /* 3.id selector (but do not use this)*/
+            /* we use # for id selectors */
+            #unique{
+                background-color: rgb(3, 129, 123);
+                font-size: 2rem;
+            }
+        /* 4.Universal Selector(for styling on every element of this page) */
+            *{
+                /* This will show no effects as this is the weakest selector */
+                /* We will also discuss the strength order of these selectors */
+                color: powderblue;
+            }
+    </style>
+</head>
+<body>
+    <h1>Hello I am first Heading</h1>
+    <div>
+        <h1>Hello I am second Heading</h1>
+    </div>
+    <h1 class="thirdh1">Hello I am third Heading</h1>
+    <p id="unique">Hello this is p tag</p>
+    <p>Hello this is p tag</p>
+    <p>Hello this is p tag</p>
+    <p>Hello this is p tag</p>
+</body>
+</html>

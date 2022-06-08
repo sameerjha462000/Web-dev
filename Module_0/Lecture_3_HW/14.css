@@ -1,0 +1,33 @@
+/* General sibling selector */
+
+a ~ p{
+    color:blue;
+}
+
+/* This changes all the p tag that come after a and are siblings of a */
+/* Refer below */
+
+/* 
+    <p>No Effect</p>
+    <a></a>
+    <p>Effect</p>
+    <p>Effect</p>
+    <h1>No Effect</h1>
+    <p>Effect</p>
+    <h1></h1>
+    <h2></h2>
+    <h6></h6>
+    <p>Effect</p>
+    <div>
+        <p>
+            No Effect
+        </p>
+    </div>
+    <div>
+        <p>No Effect</p>
+        <a>No Effect</a>
+        <p>Effect</p>
+        <h6>No Effect</h6>
+        <p>Effect</p>
+    </div>
+*/

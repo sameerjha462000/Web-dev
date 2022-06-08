@@ -1,0 +1,38 @@
+/* Only child selector */
+p:only-child{
+    color:blue;
+}
+
+
+/* p:only-child will select all the 'p' tags that are the only child of their parent. */
+
+/* Refer below */
+
+/* 
+     <!-- <p>Effect</p> -->  <!--why this does not work-->
+    <div>
+        <p>Effect</p>
+    </div>
+    <div>
+        <p>No Effect</p>
+        <p>No Effect</p>
+    </div>
+    <div>
+        <p>No Effect</p>
+        <a>No Effect</a>
+    </div>
+    <a>
+        <p>Effect</p>
+    </a>
+    <h3>
+        <p>Effect</p>
+    </h3>
+    <h3>
+        <a>Google</a>
+        <p>No Effect</p> <!--as this is not the only child of h3-->
+    </h3>
+    <div>
+        <p>No Effect</p>
+        <a></a>
+    </div>
+*/

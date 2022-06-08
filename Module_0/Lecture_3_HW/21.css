@@ -1,0 +1,24 @@
+/* Nth child */
+
+p:nth-child(2){
+    color:green;
+}
+
+/* p:nth-child(2) will select all the 'p' tags that are 2nd child of their parent. */
+
+/* Refer below */
+/* 
+    <div>
+       <p>No Effect</p>
+       <p>Effect</p>
+   </div>
+   <p>Effect</p>
+   <div>
+       <div>
+           <a>Google</a>
+           <p>Effect</p>
+           <p>No Effect</p>
+       </div>
+   </div>
+
+*/

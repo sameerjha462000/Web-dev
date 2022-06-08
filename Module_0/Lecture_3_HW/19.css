@@ -1,0 +1,39 @@
+/* 18 advanced */
+div p:only-child{
+    color:blue;
+}
+
+
+/* div p:only-child will select all the 'p' tags which are the only child of their parent and which have 'div' as an ancestor. */
+
+
+
+/* div>p:only-child will select all those 'p' tags which are the only child of a 'div' tag. */
+
+
+
+
+/* Refer below */
+
+/* 
+    <div>
+        <p>Effect</p>
+     </div>
+     <div>
+        <p>No Effect</p>
+        <p>No Effect</p>
+     </div>
+     <div>
+         <a>
+             <a>
+                 <p>
+                     Effect
+                 </p>
+             </a>
+         </a>
+     </div>
+     
+     <a>
+        <p>No Effect</p> <!--p is only child of 'a' tag but not of 'div' tag-->
+     </a>
+*/

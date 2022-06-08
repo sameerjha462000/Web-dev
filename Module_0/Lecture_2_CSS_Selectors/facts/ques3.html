@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* These types of selectors are called combinators */
+        /* children selector */
+        div>p>span{
+            color:blue;
+        }
+        /* below will also work fine */
+        /* adhura bhi kaam kr jaata he */
+        /* div>p{
+            color:blue;
+        } */
+        div>span>p>span{
+            color:green;
+        }
+        /* below will also work fine */
+        /* adhura bhi kaam kr jaata he  */
+        /* div>span>p{
+            color:green;
+        } */
+    </style>
+</head>
+<body>
+   <!-- select "I'm the direct son" and make it blue -->
+<!-- select "I'm the indirect son" and make it green -->
+    <div>
+        <p>
+            <span>I'm the direct son</span>
+        </p>
+    </div>
+    <div>
+         <span>  
+             <p>
+                <span>I'm the indirect son</span>
+            </p>
+        </span>
+    </div>
+</body>
+
+</html>

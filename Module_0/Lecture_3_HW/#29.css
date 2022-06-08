@@ -1,0 +1,13 @@
+/* Empty selector */
+
+p:empty{
+    color:green;
+}
+
+/* p:empty selects all the 'p' tag that do not have children. */
+
+/* Refer below */
+
+/* 
+    Doubt he isme
+*/

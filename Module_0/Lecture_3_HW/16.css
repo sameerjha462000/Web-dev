@@ -1,0 +1,24 @@
+/* First child selector */
+p:first-child{
+    color:blue;
+}
+
+/* p:first-child will select all the p tags whiich are first child of some other tag. */
+
+
+/* Refer below */
+
+
+/* 
+    <p>Effect</p> <!--First child of body-->
+    <a>Google</a>
+    <p>No effect</p> <!--Third child of body hence no effect-->
+    <div>
+        <a>Google</a>
+        <p>No effect</p>
+    </div>
+    <div>
+        <p>Effect</p> <!--First child of div so effect-->
+        <p>No Effect</p>
+    </div>
+*/
